@@ -168,5 +168,3 @@
 // Print the final array.
 // # Python function to sort the array arr[0..n-1] in wave form,
 // # i.e., arr[0] >= arr[1] <= arr[2] >= arr[3] <= arr[4] >= arr[5]
-
-
