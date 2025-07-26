@@ -205,6 +205,6 @@ class Q2507{
                 count++;
             }
         }
-        System.out.println(tag + ":" + count);
-    }
-}
+        System.out.println(count);
+    }   
+} 
