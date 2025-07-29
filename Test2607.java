@@ -60,25 +60,25 @@ import java.util.Scanner;
 //         }    
 // }
 
-class Test2607{
-    public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
+// class Test2607{
+//     public static void main(String[] args) {
+//         Scanner s = new Scanner(System.in);
 
-        int n = s.nextInt();
-        String S = s.next();
-        String T = s.next();
+//         int n = s.nextInt();
+//         String S = s.next();
+//         String T = s.next();
 
-        int count = n;
+//         int count = n;
 
-        for(int i = 0; i <= n; i++){
-            String suff = S.substring(i);
-            String preff = T.substring(0, n - i);
+//         for(int i = 0; i <= n; i++){
+//             String suff = S.substring(i);
+//             String preff = T.substring(0, n - i);
 
-            if(suff.equals(preff)){
-                count = i;
-                break;
-            }
-        }
-        System.out.println(count);
-    }
-}
+//             if(suff.equals(preff)){
+//                 count = i;
+//                 break;
+//             }
+//         }
+//         System.out.println(count);
+//     }
+// }

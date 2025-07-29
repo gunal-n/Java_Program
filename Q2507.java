@@ -193,18 +193,18 @@ import java.util.Scanner;
 // Output:
 // 3
 
-class Q2507{
-    public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        String str = s.nextLine();
-        char tag = s.nextLine().charAt(0);
-        int count = 0;
+// class Q2507{
+//     public static void main(String[] args) {
+//         Scanner s = new Scanner(System.in);
+//         String str = s.nextLine();
+//         char tag = s.nextLine().charAt(0);
+//         int count = 0;
 
-        for(int i = 0; i < str.length(); i++){
-            if(str.charAt(i) == tag){
-                count++;
-            }
-        }
-        System.out.println(count);
-    }   
-} 
+//         for(int i = 0; i < str.length(); i++){
+//             if(str.charAt(i) == tag){
+//                 count++;
+//             }
+//         }
+//         System.out.println(count);
+//     }   
+// } 
